@@ -1,0 +1,6 @@
+{
+  "name": "AI Assistant Bot",
+  "description": "An AI assistant bot that can analyze uploaded files (images, text, CSV) and chat with users, using Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

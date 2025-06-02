@@ -1,0 +1,70 @@
+This package is developed by Google "AI Studio Build" 
+- My App: 'AI Chat Console'
+
+##########################################################################
+
+1> npm install
+
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio>
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> npm install
+
+added 175 packages, and audited 176 packages in 36s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+1 moderate severity vulnerability
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> 
+
+
+2> npm run dev
+
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio>
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> npm run dev
+
+> ai-assistant-bot@0.0.0 dev
+> vite
+
+The system cannot find the path specified.
+node:internal/modules/cjs/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find module 'F:\vite\bin\vite.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.14.0
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> 
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio>
+
+#
+# To fix the Error: Cannot find module 'F:\next\dist\bin\next',
+# creat 'start_dev.ps1' file containing '.\node_modules\.bin\next dev --turbopack -p 9002' 
+# and run by './start_dev.ps1' in PowerShell
+#
+
+
+3> ./start_dev.ps1 
+==> (Use this batch file in PowerShell !! or ./start_dev.bat in Cmd window)
+
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> 
+PS F:\Project_AI&DL\Deep AI(LLM)\_Project\aPoe_AIStudio> ./start_dev.ps1 
+
+  VITE v6.3.5  ready in 638 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help

@@ -1,0 +1,17 @@
+
+Would you build an app like the UI in the image? 
+It has html/js/css codes for the front end and python codes 
+for the back-end. It can communicate to AI LLM models 
+such as gemini, gpt, claude, grok.
+
+It must have a feature to upload files to AI LLM models 
+as a part of user prompt. 
+The files are image, excel, csv, pdf, word, text files. 
+Then, the left hand side of the WebUI should display 
+the content of a selected file.
+
+Another feature is the content display should be zoomable 
+with mouse wheel.
+
+"Provide an image file of WebUI"
+
