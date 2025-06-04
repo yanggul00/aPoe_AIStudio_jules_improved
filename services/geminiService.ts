@@ -32,11 +32,11 @@ export const generateContentWithOptionalFile = async (
   // Simulate API call delay
   await new Promise(resolve => setTimeout(resolve, 1000));
 
-  let response = \`Mock AI Response to: "${textMessage}". Model: ${modelId}.\`;
-  if (fileName) {
-    response += \` Regarding your file: "${fileName}".\`;
-  }
-  response += \` (This is a scaffolded service, no actual AI processing occurred.)\`;
+let response = "Mock AI Response to: \"" + textMessage + "\". Model: " + modelId + ".";
+if (fileName) {
+    response += " Regarding your file: \"" + fileName + "\".";
+}
+response += " (This is a scaffolded service, no actual AI processing occurred.)";
   
   return response;
 };
